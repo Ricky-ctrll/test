@@ -1,0 +1,43 @@
+body{
+    background-color: brown;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+main{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+    width: 400px;
+    background-color: black;
+}
+.form-group{
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 15px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: rgb(119, 17, 30);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(119, 119, 119);
+    color: rgb(119, 17, 30 );
+}
